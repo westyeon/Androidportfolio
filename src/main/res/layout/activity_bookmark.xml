@@ -6,11 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".BookmarkActivity"
     android:orientation="vertical">
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="즐겨찾기"
-        android:id="@+id/bookmarktitle"/>
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:src="@drawable/bookmarkicon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="즐겨찾기"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#fdba20"
+            android:id="@+id/bookmarktitle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
 
 </LinearLayout>
