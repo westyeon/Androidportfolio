@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SearchViewActivity"></activity>
         <activity android:name=".BookmarkActivity" />
         <activity android:name=".NotificationActivity" />
         <activity android:name=".SearchActivity" />
